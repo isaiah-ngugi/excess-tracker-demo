@@ -18,8 +18,8 @@ st.title("Excess Report Tracker Demo")
 
 # Function to advance stage
 def advance_stage(stage):
-    stages = ["Stage 1", "Stage 2", "Stage 3", "Stage 4"]
-    if stage in stages and stage != "Stage 4":
+    stages = ["CMA", "RCU", "RTS", "R"]
+    if stage in stages and stage != "R":
         return stages[stages.index(stage) + 1]
     return stage
 
